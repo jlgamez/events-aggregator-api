@@ -2,6 +2,7 @@
 A Spring Boot based backend to query, and create city events in a SQL database
 ## OS used for development
 MacOS Monterrey v.12
+
 ##Prerequisites
 * Have a MySQL server running on port 3306
 * Create a MySQL database named "events_db"
