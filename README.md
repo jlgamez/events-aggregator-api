@@ -3,18 +3,18 @@ A Spring Boot based backend to query, and create city events in a SQL database
 ## OS used for development
 MacOS Monterrey v.12
 
-##Prerequisites
+## Prerequisites
 * Have a MySQL server running on port 3306
 * Create a MySQL database named "events_db"
 * Apache Maven 3.8.5
 * JDK 17.0.2
 
-##Start the Backend server
+## Start the Backend server
 1. In `src/main/resources/application.properties` add your root password for your MySQL server.
 2. In the project folder, run `mvn clean install`.
 3. Run `src/main/java/com/jlgamez/eventAgregatorApp/EventsAgregatorApp.java` main method on your IDE.
 
-##API usage
+## API usage
 You can use a tool like postman to make requests to the following endpoints
 
 | Endpoint                                                                                | Body example (if needed)                                                                                                                                                                                                                              | Description                                                                          |
